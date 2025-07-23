@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
     <title>Valorant Dev News</title>
     <link>https://playvalorant.com/en-us/news/dev/</link>
     <description>Latest development updates and diaries from the VALORANT dev team.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Jul 2025 17:22:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 19:37:20 +0000</lastBuildDate>
     <item>
       <title>Behind the Walls of Corrode // Dev Diaries</title>
       <description>Hear how the dev team approached designing VALORANT’s newest map, Corrode.</description>
       <pubDate>Sun, 22 Jun 2025 16:05:00 +0000</pubDate>
       <link>https://www.youtube.com/watch?v=KUV039XgYrc</link>
       <guid>https://www.youtube.com/watch?v=KUV039XgYrc</guid>
-      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/70c1fd08e37677c94a5854920e9a8b6835536b0d-1920x1080.jpg" length="0" type="image/*"/>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/70c1fd08e37677c94a5854920e9a8b6835536b0d-1920x1080.jpg" length="0" type="image/*" />
       <category>Dev</category>
     </item>
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Fri, 30 May 2025 15:00:00 +0000</pubDate>
       <link>https://www.youtube.com/watch?v=_oYnSaw9A-c</link>
       <guid>https://www.youtube.com/watch?v=_oYnSaw9A-c</guid>
-      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6304e354c98ffef82cccd0414b4693bd8ac0fc0b-1920x1080.jpg" length="0" type="image/*"/>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6304e354c98ffef82cccd0414b4693bd8ac0fc0b-1920x1080.jpg" length="0" type="image/*" />
       <category>Dev</category>
     </item>
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Tue, 29 Apr 2025 13:30:00 +0000</pubDate>
       <link>https://www.youtube.com/watch?v=ywRzBumomAU</link>
       <guid>https://www.youtube.com/watch?v=ywRzBumomAU</guid>
-      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0a5a04311d3566c4fe19fadb7b03f3c82bf0facd-1920x1080.jpg" length="0" type="image/*"/>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0a5a04311d3566c4fe19fadb7b03f3c82bf0facd-1920x1080.jpg" length="0" type="image/*" />
       <category>Dev</category>
     </item>
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Tue, 04 Feb 2025 18:00:00 +0000</pubDate>
       <link>https://playvalorant.com/en-us/news/dev/vanguard-hits-new-bans-per-second-record/</link>
       <guid>https://playvalorant.com/en-us/news/dev/vanguard-hits-new-bans-per-second-record/</guid>
-      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/22475bf4d258ab8d3317895abfb004a872951433-1920x1080.jpg" length="0" type="image/*"/>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/22475bf4d258ab8d3317895abfb004a872951433-1920x1080.jpg" length="0" type="image/*" />
       <category>Dev</category>
     </item>
   </channel>
