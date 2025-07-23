@@ -1,20 +1,22 @@
 name: Update RSS feeds
 
 on:
-  # 每小时 0 分触发（UTC），请根据需要调整 cron 表达式。
+  # Run the workflow at 10:00 AM UTC each day.  Adjust the cron expression
+  # if you want a different schedule (cron format is minute hour day-of-month month day-of-week).
   schedule:
-    # GitHub free accounts include 2,000 minutes of compute time per month:contentReference[oaicite:1]{index=1},
+    # GitHub free accounts include 2,000 minutes of compute time per month【645181585935166†L379-L380】,
     # which is usually enough to run a lightweight script many times a day.  To
     # refresh your RSS feeds hourly, use the cron expression below. This
     # schedules the workflow at the top of every hour (minute 0). With an
     # efficient script, an hourly run should stay well under the monthly quota.
     - cron: '0 * * * *'
-  # 允许手动触发
+  # Allow manual triggering of the workflow from the GitHub UI.
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -27,7 +29,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # feedparser 和 beautifulsoup4 可选，用于未来自定义抓取逻辑。
+          # feedparser and beautifulsoup4 are optional; install them if you plan
+          # to implement custom parsing logic in update_feeds.py.
           pip install feedparser beautifulsoup4 requests
 
       - name: Run update script
@@ -36,8 +39,13 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          # Configure git user for the commit.
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          # Stage any modified XML files.
           git add *.xml || true
+          # Commit changes if there are any.
           git diff --cached --quiet || git commit -m "Automated update of RSS feeds"
+          # Push back to the default branch.  GITHUB_TOKEN is automatically provided
+          # to your workflow.  See GitHub docs for more information.
           git push
