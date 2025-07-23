@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>League of Legends Dev News</title>
+    <link>https://www.leagueoflegends.com/en-gb/news/dev/</link>
+    <description>Latest developer updates and diaries from the League of Legends team.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Jul 2025 17:22:05 +0000</lastBuildDate>
+    <item>
+      <title>TFT Dev Drop: K.O. Coliseum</title>
+      <description>Rally your squad, power up, and battle your way to Top 4 glory.</description>
+      <pubDate>Sun, 13 Jul 2025 17:00:00 +0000</pubDate>
+      <link>https://www.youtube.com/watch?v=dciyCMuUkTE</link>
+      <guid>https://www.youtube.com/watch?v=dciyCMuUkTE</guid>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/907255af63786377dbc621bd6f7ccd5e7b18eda1-1920x1080.jpg" length="0" type="image/*"/>
+      <category>Dev</category>
+    </item>
+    <item>
+      <title>/Dev TFT: Cyber City Learnings</title>
+      <description>Reflecting on Cyber City (and more) with Riot Mort, Riot Xtna, and a few other teammates.</description>
+      <pubDate>Mon, 07 Jul 2025 17:00:00 +0000</pubDate>
+      <link>https://teamfighttactics.leagueoflegends.com/en-gb/news/dev/dev-tft-cyber-city-learnings/</link>
+      <guid>https://teamfighttactics.leagueoflegends.com/en-gb/news/dev/dev-tft-cyber-city-learnings/</guid>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bee57fbd338f8669a2f626dfc027abf7622e9c68-1920x1080.jpg" length="0" type="image/*"/>
+      <category>Dev</category>
+    </item>
+    <item>
+      <title>Dev Update: ARAM, Inting &amp; More</title>
+      <description>Members of the League dev team talk about updates to ARAM, the Wyldbloom, inting, and more.</description>
+      <pubDate>Mon, 09 Jun 2025 15:00:00 +0000</pubDate>
+      <link>https://www.youtube.com/watch?v=V-5xI5pDof4</link>
+      <guid>https://www.youtube.com/watch?v=V-5xI5pDof4</guid>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8fc0afa7589169a9f635285899b7069d3859b321-1280x720.jpg" length="0" type="image/*"/>
+      <category>Dev</category>
+    </item>
+    <item>
+      <title>TL;DW: ARAM, Inting &amp; More Dev Update</title>
+      <description>A short rundown of changes from today’s Dev Update.</description>
+      <pubDate>Mon, 09 Jun 2025 15:00:00 +0000</pubDate>
+      <link>https://www.leagueoflegends.com/en-gb/news/dev/tldw-aram-inting-more-dev-update/</link>
+      <guid>https://www.leagueoflegends.com/en-gb/news/dev/tldw-aram-inting-more-dev-update/</guid>
+      <enclosure url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6ef0d5575a75a0cfbfc2e0646102ecbc9fa8a0cd-1920x1080.jpg" length="0" type="image/*"/>
+      <category>Dev</category>
+    </item>
+  </channel>
+</rss>
