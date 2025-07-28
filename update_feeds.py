@@ -247,7 +247,7 @@ def update_lastbuild_only(file_path: str) -> None:
             if lb is not None:
                 now = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
                 lb.text = now
-                tree.write(file_path, encoding="utf-8", xml_declaration=True)
+                tree.write(file_path, encoding="utf-8-sig", xml_declaration=True)
     except Exception as e:
         print(f"[fallback] failed to update {file_path}: {e}")
 
@@ -293,7 +293,7 @@ def main() -> None:
         items = feed["fetcher"]()
         if items:
             tree = build_rss(feed["channel"], items)
-            tree.write(file_path, encoding="utf-8", xml_declaration=True)
+            tree.write(file_path, encoding="utf-8-sig", xml_declaration=True)
             print(f"Written {len(items)} items to {feed['file']}")
         else:
             # Fallback to updating lastBuildDate if no items were fetched
